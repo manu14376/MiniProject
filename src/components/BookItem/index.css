@@ -1,0 +1,52 @@
+.book-img {
+  height: 155px;
+  width: 133px;
+  border-radius: 8px;
+}
+
+.book-list-item {
+  display: flex;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.book-title {
+  font-family: 'roboto';
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.book-author {
+  font-family: 'roboto';
+  color: #475569;
+  font-size: 14px;
+}
+
+.book-rating {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'roboto';
+}
+
+.book-status {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'roboto';
+}
+
+.status {
+  font-size: 12px;
+  font-family: 'roboto';
+  color: #0284c7;
+}
+
+.book-info {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.route-link {
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.slide-image {
+  height: 224px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.list-item {
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #334155;
+}
+
+.author {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'roboto';
+}

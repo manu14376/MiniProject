@@ -1,0 +1,110 @@
+.bookshelves-container {
+  height: 100%;
+  width: 100%;
+  background-color: #faf6f6;
+}
+
+.navbar-content-container {
+  width: 100%;
+  display: flex;
+  padding-left: 100px;
+}
+
+.heading-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'roboto';
+  margin: 20px;
+}
+
+.search-container {
+  display: flex;
+  height: 30px;
+  border: 1px solid #cbd5e1;
+}
+
+.searchEl {
+  padding: 5px;
+  border: 0px;
+}
+
+.search-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.unordered-books-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.heading-books-container {
+  width: 70%;
+}
+
+.loader-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  height: 230px;
+  width: 470px;
+}
+
+.failure-heading {
+  font-size: 24px;
+  color: #475569;
+  font-family: 'roboto';
+}
+
+.tryagain-btn {
+  padding: 12px 24px 12px 24px;
+  color: white;
+  font-family: 'roboto';
+  background-color: #0284c7;
+  border: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.noresults-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.noresults-description {
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #334155;
+}

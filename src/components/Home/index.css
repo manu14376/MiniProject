@@ -1,0 +1,90 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #faf6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-content-container {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+
+.home-description {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'roboto';
+}
+
+.slick-container {
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.slider-heading {
+  color: #1e293b;
+  font-size: 22px;
+  font-family: 'roboto';
+}
+
+.findbooks-btn {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'roboto';
+  font-size: 12px;
+  background-color: #0284c7;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.slider-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-failure-img {
+  height: 170px;
+  width: 270px;
+  border-radius: 5px;
+}
+
+.home-failure-heading {
+  font-size: 24px;
+  color: #475569;
+  font-family: 'roboto';
+}
+
+.home-tryagain-btn {
+  padding: 6px 12px 6px 12px;
+  color: white;
+  font-family: 'roboto';
+  background-color: #0284c7;
+  border: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.slide-images-container {
+  text-align: center;
+}

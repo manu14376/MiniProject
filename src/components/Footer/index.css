@@ -1,0 +1,28 @@
+.footer-section {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.footer-text {
+  color: #3d3c3c;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+  margin: 0px;
+}
+
+.ul-list-footer-section {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}

@@ -1,0 +1,82 @@
+.book-details-container {
+  background-color: #faf6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.book-details-card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-details-image {
+  height: 270px;
+  width: 230px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.book-details-title {
+  font-size: 32px;
+  color: #334155;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+
+.book-information {
+  font-family: 'roboto';
+  color: #475569;
+  font-size: 24px;
+}
+
+.book-details-status {
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #0284c7;
+}
+
+.book-info-container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hr-line {
+  color: #94a3b8;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-heading {
+  align-self: flex-start;
+  font-size: 24px;
+  color: #334155;
+  font-family: 'roboto';
+  margin: 0px;
+}
+
+.about-description {
+  align-self: flex-start;
+  font-size: 16px;
+  color: #475569;
+  font-family: 'roboto';
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-info-container {
+    flex-direction: row;
+  }
+  .book-details-card {
+    margin: 50px;
+  }
+}
